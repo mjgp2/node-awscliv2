@@ -29,3 +29,5 @@ RUN apk --no-cache add \
         binutils \
         curl \
     && rm -rf /var/cache/apk/*
+
+RUN apk --no-cache add jq
