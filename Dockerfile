@@ -30,4 +30,4 @@ RUN apk --no-cache add \
         curl \
     && rm -rf /var/cache/apk/*
 
-RUN apk --no-cache add jq groff bash docker-compose git
+RUN apk --no-cache add jq groff bash docker-compose git findutils coreutils
