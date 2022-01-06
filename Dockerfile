@@ -27,7 +27,6 @@ RUN apk --no-cache add \
         glibc-*.apk \
     && apk --no-cache del \
         binutils \
-        curl \
     && rm -rf /var/cache/apk/*
 
 RUN apk --no-cache add jq groff bash docker-compose git findutils coreutils
