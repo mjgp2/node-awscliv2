@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs14-alpine
+FROM nikolaik/python-nodejs:python3.11-nodejs18-alpine
 
 ENV GLIBC_VER=2.31-r0
 
